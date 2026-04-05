@@ -1,7 +1,8 @@
-[gd_scene load_steps=39 format=3 uid="uid://bqo6s1ged203m"]
+[gd_scene load_steps=40 format=3 uid="uid://bqo6s1ged203m"]
 
 [ext_resource type="Script" uid="uid://cu8qwkcarpg4o" path="res://scripts/player.gd" id="1_2hs0m"]
 [ext_resource type="Texture2D" uid="uid://ce1ja00dphulh" path="res://assets/images/player/Hit (32x32).png" id="2_1jxqw"]
+[ext_resource type="Resource" uid="uid://bgyccx31d35tx" path="res://inventory/playerinv.tres" id="2_fjrip"]
 [ext_resource type="Texture2D" uid="uid://b757c74qauur2" path="res://assets/images/player/Idle (32x32).png" id="3_dw050"]
 [ext_resource type="Texture2D" uid="uid://blwt0as6gq0eq" path="res://assets/images/player/Jump (32x32).png" id="4_b26j0"]
 [ext_resource type="Texture2D" uid="uid://c3bau8u5ooq2t" path="res://assets/images/player/Run (32x32).png" id="5_n7ghd"]
@@ -249,6 +250,7 @@ size = Vector2(21, 25.6667)
 [node name="player" type="CharacterBody2D"]
 scale = Vector2(3, 3)
 script = ExtResource("1_2hs0m")
+inv = ExtResource("2_fjrip")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

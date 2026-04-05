@@ -1,0 +1,112 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjksvc1m0omhp"]
+
+[ext_resource type="Script" uid="uid://c5r0f3rjpcarq" path="res://scripts/inv_ui.gd" id="1_qw0r6"]
+[ext_resource type="PackedScene" uid="uid://cy6micfef2p1x" path="res://scenes/inv_item.tscn" id="2_hj2ta"]
+
+[node name="Inventory" type="Window"]
+size = Vector2i(77, 156)
+script = ExtResource("1_qw0r6")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer"]
+layout_mode = 2
+columns = 4
+
+[node name="InvItem" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem2" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem3" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem4" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem5" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem6" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem7" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem8" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem9" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem10" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem11" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem12" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem13" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem14" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem15" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem16" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem17" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem18" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem19" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem20" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem21" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem22" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem23" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem24" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem25" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem26" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem27" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem28" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem29" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem30" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem31" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2
+
+[node name="InvItem32" parent="MarginContainer/GridContainer" instance=ExtResource("2_hj2ta")]
+layout_mode = 2

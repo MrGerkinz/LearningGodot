@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://cy6micfef2p1x"]
+
+[ext_resource type="Script" uid="uid://ciocl6cmmhpo0" path="res://scripts/inv_item.gd" id="1_8oiy4"]
+[ext_resource type="Texture2D" uid="uid://cs3nxwejusse1" path="res://assets/images/invslot.png" id="1_svh0y"]
+
+[node name="InvItem" type="TextureButton"]
+custom_minimum_size = Vector2(16, 16)
+offset_right = 16.0
+offset_bottom = 16.0
+script = ExtResource("1_8oiy4")
+
+[node name="background" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_svh0y")
+centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 0
+offset_right = 16.0
+offset_bottom = 16.0
+
+[node name="Panel" type="Panel" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="item_display" type="Sprite2D" parent="CenterContainer/Panel"]
+position = Vector2(-8, -8)
+centered = false
